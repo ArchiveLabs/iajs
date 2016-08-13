@@ -574,7 +574,7 @@ function b64_enc (data) {
 },{}],3:[function(require,module,exports){
 module.exports = InternetArchive
 
-var request = require('browser-request')
+var request = require('request')
 var Item = require('./item.js')
 
 function InternetArchive (opts) {
@@ -599,5 +599,5 @@ InternetArchive.prototype.getItem = function (identifier, cb) {
   })
 }
 
-},{"./item.js":1,"browser-request":2}]},{},[3])(3)
+},{"./item.js":1,"request":2}]},{},[3])(3)
 });
